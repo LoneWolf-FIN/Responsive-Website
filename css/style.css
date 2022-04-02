@@ -100,6 +100,8 @@ header .nav-bar{
   text-transform: uppercase;
   text-decoration: none;
   text-shadow: var(--text-shadow);
+  border: 2px solid white;
+  padding: 8px;
 }
 
 .navigation .nav-items a{
@@ -111,10 +113,26 @@ header .nav-bar{
   line-height: 25px;
   border-radius: 4px;
 }
-.nav-bar a:hover{
+
+.navigation .nav-items a:hover{
   background-color: #ddd;
   color: black;
 }
+
+.nav-bar a{
+  color: var(--white-color);
+  font-size: 1em;
+  text-decoration: none;
+  text-shadow: var(--text-shadow);
+  padding: 8px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* .nav-bar a:hover{
+  background-color: #ddd;
+  color: black;
+} */
 
 .navigation .nav-items a i{
   display: none;
